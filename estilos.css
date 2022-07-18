@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ body {
+    background-image: url(Wireframe/empresas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mandali', sans-serif;
+    color: aliceblue;
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+   
+
+}     
+
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0% auto;
+
+}
+
+.header {
+    background: #434343;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+
+} 
+.navegacion ul li a:hover {
+            background: #1a1919;
+            transition: all 0.7s linear;
+            border-radius: 5px;
+}
+
+.logo-nav-container img{
+    width: 120px;
+    height: 80px;
+    float: left;
+    border: #434343;
+    border-radius: 10%;
+    margin-right: 70px;
+    position: relative;
+    left: 0;
+    top: -20px;
+}
+ 
+
+
+
+.contacto{
+    width: 500px; 
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    font-family: 'Mandali', sans-serif; color:white;
+    text-align: center;
+    border-radius: 15px;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+       linear-gradient(
+            60deg,
+            #b16ec4,
+            #5f97b9
+
+       )
+
+ }
+
+
+
+ .contacto h1{
+    position: absolute;
+    left: 200px;
+    top: -40px;
+    border-radius: 3%;
+    background-color: #434343;
+    font-family: "Century Gothic",Verdana,sans-serif;
+    color: rgb(180, 28, 155);
+    
+ }
+
+ .Menu-Somos{
+    width: 500px; 
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    font-family: 'Mandali', sans-serif; color:white;
+    text-align: center;
+    border-radius: 15px;
+
+
+ }
+
+ .Menu-Somos-img{
+     border-radius: 50%;
+ }
+
+ .Menu-Somos h1{
+     font-size: 40px;
+     letter-spacing: 4px;
+     font-weight: 100;
+     margin: 30px 0 20px;
+ }
+ .Menu-Somos h2{
+     font-size: 20px;
+     letter-spacing: 3px;
+     font-weight: 100;
+     margin-bottom: 20px;
+             
+
+ }
+
+ .Menu-Somos p{
+     text-align: justify;
+ }
+
+
+ .main p{
+    position: fixed;
+    height: 250px;
+    width:250px;
+    border-radius:  50%;
+    left: 1050px;
+    top: 70px;
+    }
+
+
+.nosotros{
+        width: 500px; 
+        background: rgba(0, 0, 0, .4);
+        margin: 0 auto;
+        margin-top: 4%;
+        padding: 20px;
+        font-family: 'Mandali', sans-serif; color:white;
+        text-align: center;
+        border-radius: 15px;
+        border: solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-image-source: 
+           linear-gradient(
+                60deg,
+                #b16ec4,
+                #5f97b9
+
+           )
+    }
+
+    .nosotros p{
+        
+        font-family: "Century Gothic",Verdana,sans-serif;
+        
+        font-size: xx-large;
+
+    }
+
+
+
+footer{
+        background-color: #434343;
+        padding: 1.5rem 0;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        /* width: 100%;*/
+        font-family: 'Mandali', sans-serif; color:white;
+        font-size: small;
+        /* height: 2px; */
+         
+    }
+ .container img{
+    position: relative;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    left:30px;
+    top: 70px;
+ }
+
+
+ .dos img{
+    position: relative;
+    border-radius: 50%;
+    height: 250px;
+    width:250px;
+    top: -184px;
+    left: 900px;
+ }
+
+
+.tra img{
+    width: 80px;
+    height: 50px;
+    left: 10px;
+    top: 8px;
+    position: absolute;
+}
+
+
+.contenedor-galeria{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    margin: 10px;
+}
+.imagen{
+    background-color: #434343;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:0px 15px 25px rgba(0, 0, 0, 0.50) ;
+
+}
+
+.imagen h3{
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px rgb(255, 255, 255), 
+      2px 2px 1px #832020;
+  }
+
+
+  .nav__label, .nav__input{
+    display: none;
+  }
+
+
+
+
+
+  .proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #434343
+}
+
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+  @media screen and (max-width:768px){
+ 
+
+    .contenedor-galeria{
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+             
+
+    }
+}
+
