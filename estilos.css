@@ -366,6 +366,18 @@ img{
 }
 
 
+.imagen-car .img{
+    width: 640px; 
+    height: 360px; 
+}
+
+.slide{
+   position: absolute;
+   width: 700px;
+   height: 50vh;
+   left: 290px;
+}
+
 
 
 
