@@ -207,24 +207,7 @@ footer{
         /* height: 2px; */
          
     }
- .container img{
-    position: relative;
-    height: 250px;
-    width:250px;
-    border-radius: 50%;
-    left:30px;
-    top: 70px;
- }
-
-
- .dos img{
-    position: relative;
-    border-radius: 50%;
-    height: 250px;
-    width:250px;
-    top: -184px;
-    left: 900px;
- }
+ 
 
 
 .tra img{
