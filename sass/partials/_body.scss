@@ -1,0 +1,14 @@
+body {
+    background-image: url(Wireframe/empresas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $font-principal;
+    color: aliceblue;
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+   
+
+}

@@ -1,0 +1,85 @@
+/* Colores */
+/* Fuentes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(Wireframe/empresas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Mandali", sans-serif;
+  color: aliceblue;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+.header {
+  background: #434343;
+  padding: 2rem 0; }
+
+.header a {
+  color: white;
+  text-decoration: none;
+  align-items: center; }
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navegacion ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.navegacion ul li {
+  display: inline-block; }
+
+.navegacion ul li a {
+  display: block;
+  padding: 0.5rem 1rem; }
+
+.navegacion ul li a:hover {
+  background: #1a1919;
+  transition: all 0.7s linear;
+  border-radius: 5px; }
+
+.logo-nav-container img {
+  width: 120px;
+  height: 80px;
+  float: left;
+  border: #434343;
+  border-radius: 10%;
+  margin-right: 70px;
+  position: relative;
+  left: 0;
+  top: -20px; }
+
+footer {
+  background-color: #434343;
+  padding: 1.5rem 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  /* width: 100%;*/
+  font-family: 'Mandali', sans-serif;
+  color: white;
+  font-size: small;
+  /* height: 2px; */ }
+
+.tra img {
+  width: 80px;
+  height: 50px;
+  left: 10px;
+  top: 8px;
+  position: absolute; }
+
+.slide {
+  position: absolute;
+  width: 700px;
+  height: 50vh;
+  left: 290px; }

@@ -22,12 +22,12 @@
 }     
 
 
-.container {
+/* .container {
     width: 85%;
     max-width: 850px;
     margin: 0% auto;
 
-}
+} */
 
 .header {
     background: #434343;
@@ -378,9 +378,9 @@ img{
 
 
 
-  @media screen and (max-width:768px){
+  @media all and (max-width:500px){
  
-
+ 
     .contenedor-galeria{
 
         display: grid;
