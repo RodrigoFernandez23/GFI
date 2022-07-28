@@ -1,0 +1,36 @@
+.nosotros{
+    width: 500px; 
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    font-family: $font-principal; color:white;
+    text-align: center;
+    border-radius: 15px;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+       linear-gradient(
+            60deg,
+            #b16ec4,
+            #5f97b9
+
+       )
+}
+
+.nosotros p{
+    
+    font-family: $font-contacto;
+    
+    font-size: xx-large;
+
+}
+.main p{
+    position: fixed;
+    height: 250px;
+    width:250px;
+    border-radius:  50%;
+    left: 1050px;
+    top: 70px;
+    }
