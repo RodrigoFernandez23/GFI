@@ -78,12 +78,6 @@ footer {
   top: 8px;
   position: absolute; }
 
-.slide {
-  position: absolute;
-  width: 700px;
-  height: 50vh;
-  left: 290px; }
-
 .contenedor-galeria {
   display: grid;
   grid-template-columns: 1fr;
