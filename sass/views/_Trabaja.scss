@@ -1,3 +1,8 @@
+@mixin altura {
+    height: 250px;
+    width:250px;
+    
+}
 .nosotros{
     width: 500px; 
     background: rgba(0, 0, 0, .4);
@@ -28,8 +33,7 @@
 }
 .main p{
     position: fixed;
-    height: 250px;
-    width:250px;
+    @include altura();
     border-radius:  50%;
     left: 1050px;
     top: 70px;
