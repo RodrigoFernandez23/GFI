@@ -5,7 +5,7 @@
     margin: 10px;
 }
 .imagen{
-    background-color:$primary;
+    background-color:map-get($color , primary );
     padding: 15px;
     border-radius: 6px;
     display: flex;

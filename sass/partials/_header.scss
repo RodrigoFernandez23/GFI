@@ -1,5 +1,5 @@
 .header {
-    background:$primary;
+    background:map-get($color , primary);
     padding: 2rem 0;
 }
 
@@ -31,7 +31,7 @@
 
 } 
 .navegacion ul li a:hover {
-            background:$secondary;
+            background:map-get($color , secondary );
             transition: all 0.7s linear;
             border-radius: 5px;
 }
@@ -40,7 +40,7 @@
     width: 120px;
     height: 80px;
     float: left;
-    border: $primary;
+    border: map-get($color , primary );
     border-radius: 10%;
     margin-right: 70px;
     position: relative;
