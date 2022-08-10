@@ -5,6 +5,7 @@
   box-sizing: border-box; }
 
 body {
+  background-color: #434343;
   background-image: url(https://www.duna.cl/media/2013/07/empresas2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
