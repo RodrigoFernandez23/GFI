@@ -287,4 +287,6 @@ img {
 
 @media (max-width: 480px) {
   .Menu-Somos {
-    width: 100%; } }
+    width: 100%; }
+  .Menu-Somos h1 {
+    justify-content: space-between; } }
